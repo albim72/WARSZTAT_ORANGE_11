@@ -101,3 +101,16 @@ def ekstra_liczba(n):
 print(filtrowanie(num,ekstra_liczba))
 print(filtrowanie(num,lambda x:x>=88))
 
+
+def mapowanie(dane,transformacja,param):
+
+    mapa=[]
+    for element in dane:
+        mapa.append(transformacja(element,param))
+    return mapa
+
+def addfive(n,m):
+    return n+m
+
+print(mapowanie(num,addfive,17))
+
