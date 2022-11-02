@@ -36,3 +36,25 @@ print("jestem poza pętlą...")
 
 for i,(imie,punkty) in enumerate(konkurs):
     print(f'nr {i+1}: {imie:8s} : {punkty:.1f} punktów')
+
+
+konkurs = [
+    ["Jan",78],
+    ["Anna",45],
+    ["Olaf",12],
+]
+
+nb = ("99")
+print(type(nb))
+nb = (99,)
+print(type(nb))
+print(len(konkurs))
+print("wersja z listą...")
+for i,[imie,punkty] in enumerate(konkurs,101): #for iterator, wartość (pobieranie zmiemnych w kolejności z listy) in ....
+    print(f'nr {i+1}: {imie:8s} : {punkty:.1f} punktów')
+
+for elem in konkurs: #for iterator, wartość (pobieranie zmiemnych w kolejności z listy) in ....
+    print(f' {elem[0]:8s} : {elem[1]:.1f} punktów')
+
+for i in konkurs:
+    print(i)
