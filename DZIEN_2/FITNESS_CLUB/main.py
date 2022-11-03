@@ -1,5 +1,6 @@
 from osoba import Osoba
 from trener import Trener
+from klient import Klient
 
 os1 = Osoba("Feliks",43,98,176)
 os2 = Osoba()
@@ -18,4 +19,32 @@ tr1.print_osoba()
 print(tr1.opis_trenera())
 print(f"czy osoba jest trenerem: {tr1.czyjesttrenerem()}")
 tr1.klubinfo()
+
+print("__________________________________________")
+
+kl1 = Klient("Leon",40,80,180,678,"Lublin",nr_kb=7)
+
+kl1.print_osoba()
+
+print(kl1.czyjesttrenerem())
+
+
+print("__________________________________________")
+
+kl1 = Klient("Leon",40,80,180,678,"Lublin",nr_kb=7)
+
+kl1.print_osoba()
+
+print(kl1.czyjesttrenerem())
+
+print("__________________________________________")
+
+kl2 = Klient("Leon",40,80,180,678,"Lublin",54554,8,True,45,"Ole","CCC")
+
+kl2.print_osoba()
+
+print(kl2.czyjesttrenerem())
+
+print(type(kl2.trener))
+
 
