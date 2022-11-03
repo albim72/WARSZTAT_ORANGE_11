@@ -5,5 +5,5 @@ class Resistor:
         self.voltage = 0
         self.current = 0
     def __repr__(self):
-        return f'Resistor -> {self.__class__}(ohms={self.ohms}, voltage: {self.voltage})'
+        return f'Resistor -> {self.__class__.__name__}(ohms={self.ohms}, voltage: {self.voltage})'
 
