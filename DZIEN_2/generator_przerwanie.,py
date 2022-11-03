@@ -1,0 +1,10 @@
+def genret():
+    for i in range(7):
+        if i==4:
+            print("przerwanie...")
+            return
+        else:
+            yield i
+
+for t in genret():
+    print(t)
