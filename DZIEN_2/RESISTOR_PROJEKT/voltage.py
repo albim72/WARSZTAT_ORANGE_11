@@ -6,8 +6,8 @@ class VoltageResistor(Resistor):
         super().__init__(ohms)
         self._voltage = 5
 
-    def __repr__(self):
-        return f'VoltageResistor(ohms={self.ohms}, voltage: {self.voltage})'
+    # def __repr__(self):
+    #     return f'VoltageResistor(ohms={self.ohms}, voltage: {self.voltage})'
 
     @property
     def voltage(self):
