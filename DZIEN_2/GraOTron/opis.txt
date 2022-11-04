@@ -1,0 +1,8 @@
+#stwórz strukturę zdarzenia Pojedynek
+#w pojedynku bierze udział dwóch członków rodu
+#paramter #1 -> wyzywający #2 -> wyzwany
+#wynik pojedynku -> porównanie punktów walki i doświadczenia z wagami 0.7 dla walki i 0.3 dla doświadcczenia
+#wynik -> 0.7*pw + 0.3*dosw
+#wygrywający to ten który posiada wyższy wynik
+#przegrany traci po 2 punkty kategrii pw , a zyskuje punkt doswiadczenia
+#wygrany zyskuje po 2 punkcie z obu kategorii
