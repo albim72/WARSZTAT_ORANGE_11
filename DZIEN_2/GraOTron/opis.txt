@@ -6,3 +6,28 @@
 #wygrywający to ten który posiada wyższy wynik
 #przegrany traci po 2 punkty kategrii pw , a zyskuje punkt doswiadczenia
 #wygrany zyskuje po 2 punkcie z obu kategorii
+
+I
+
+1. Przebuduj koncepcję gry usuwając jawne klasy reprezentujące członków rodu: Tywin, Tyrion, Cersei
+2. Zbuduj klasy rodów: np Lannister, która będzie reprezentować każdego nowego członka rodu
+3. Wykorzystaj nową konstrukcję do tworzenia członków roku (Ososba)
+4. W klasie Pojedynek uwzględnij te zmiany
+
+II 
+
+Wprowadź punkty zdrowia, zależne od punktów walki (wraz ze stratą pw traci zdrowie)
+Poprawa zdrowia -> leczenie, odżywianie, magia
+
+Spróbuj opisać kompozycję potraw, które mogą wzmocnić osobę:
+opisz komponenty potraw, buduj potrawy z komponentów, każdy komponent ma minerały np magnez, wit C.....
+Potrawy bogatsze w wybrane wartości odżywcze dodają punktów zdrowia,
+ kiepskie jedzenie ujmuje...
+ 
+ 
+III
+
+Zbuduj pseudojęzyk z własnym pseudointerpreterm  opisujący bitwę
+np.
+Bitwa:
+(atakujący -> pole bitwy <- broniący):zwyciązca(wynik struktury która zostanie opsiana podobnie jak pojedynek)
