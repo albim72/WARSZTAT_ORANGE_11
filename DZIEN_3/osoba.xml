@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<osoby>
+    spis osób:
+    pierwsza osoba ->
+    <osoba>
+        Jan Kowalski 13.10.1976 Kraków
+    </osoba>
+
+    druga osoba ->
+    <osoba>
+        Olga Kot 13.10.1977 Lublin
+    </osoba>
+</osoby>
