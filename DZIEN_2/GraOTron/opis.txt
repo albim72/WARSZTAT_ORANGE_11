@@ -27,6 +27,8 @@ Potrawy bogatsze w wybrane wartości odżywcze dodają punktów zdrowia,
  
 III
 
+Wykorzystaj wzorzec Interpreter (opis strzałek i innych operatorów -> RegEx - wyrażenia regularne)
+
 Zbuduj pseudojęzyk z własnym pseudointerpreterm  opisujący bitwę
 np.
 Bitwa:
